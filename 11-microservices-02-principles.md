@@ -17,12 +17,12 @@
 | Решение | Маршрутизация запросов | Аутентификация при запросах | Терминация HTTPS | Модель распространения |
 |:---:|:---:|:---:|:---:|:---:|
 | APIGee | :white_check_mark: | :white_check_mark: | :white_check_mark: | Платная |
-| Apache APISIX | :white_check_mark: | :white_check_mark: | :white_check_mark: | Опенсоурс |
+| Apache APISIX | :white_check_mark: | :white_check_mark: | :white_check_mark: | OpenSourse |
 | Axway | :white_check_mark: | :white_check_mark: | :white_check_mark: | Платная  |
-| Kong | :white_check_mark: | :white_check_mark: | :white_check_mark: | Опенсоурс |
-| Tyk | :white_check_mark: | :white_check_mark: | :white_check_mark: | Опенсоурс |
+| Kong | :white_check_mark: | :white_check_mark: | :white_check_mark: | OpenSourse |
+| Tyk | :white_check_mark: | :white_check_mark: | :white_check_mark: | OpenSourse |
 | NGINX Plus | :white_check_mark: | :white_check_mark: | :white_check_mark: | Платная |
-| Gravitee.io | :white_check_mark: | :white_check_mark: | :white_check_mark: | Опенсоурс |
+| Gravitee.io | :white_check_mark: | :white_check_mark: | :white_check_mark: | OpenSourse |
 
  - Можно использовать любое из указанных решений, но всё зависит от финансовой стороны вопроса.
 
