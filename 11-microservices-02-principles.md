@@ -50,10 +50,10 @@
 |:---:|:---:|:---:|:---:|:---:
 | Поддержка кластеризации для обеспечения надежности | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | Хранение сообщений на диске в процессе доставки | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| Высокая скорость работы | :white_check_mark: | :white_check_mark: | :white_check_mark: | ✖ |
+| Высокая скорость работы | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: |
 | Поддержка различных форматов сообщений | BINARY on TCP | STOMP/AMQP/MQTT |  RESP | AMQP//MQTT/RESP и пр. |
 | Разделение прав доступа к различным потокам сообщений | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| Простота эксплуатации | ✖ | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Простота эксплуатации | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 
 
  - Как и в предыдущем задании, из за распространённости и частоты использования можно выбрать брокер сообщений RabbitMQ, он менее сложен в эксплуатации чем Apache Kafka и поддерживает несколько форматов сообщений.
