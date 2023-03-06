@@ -16,13 +16,13 @@
 
 | Решение | Маршрутизация запросов | Аутентификация при запросах | Терминация HTTPS | Модель распространения |
 |:---:|:---:|:---:|:---:|:---:|
-| APIGee | ✔ | ✔ | ✔ | Платная |
-| Apache APISIX | ✔ | ✔ | ✔ | Опенсоурс |
-| Axway | ✔ | ✔ | ✔ | Платная  |
-| Kong | ✔ | ✔ | ✔ | Опенсоурс |
-| Tyk | ✔ | ✔ | ✔ | Опенсоурс |
-| NGINX Plus | ✔ | ✔ | ✔ | Платная |
-| Gravitee.io | ✔ | ✔ | ✔ | Опенсоурс |
+| APIGee | :white_check_mark: | :white_check_mark: | :white_check_mark: | Платная |
+| Apache APISIX | :white_check_mark: | :white_check_mark: | :white_check_mark: | Опенсоурс |
+| Axway | :white_check_mark: | :white_check_mark: | :white_check_mark: | Платная  |
+| Kong | :white_check_mark: | :white_check_mark: | :white_check_mark: | Опенсоурс |
+| Tyk | :white_check_mark: | :white_check_mark: | :white_check_mark: | Опенсоурс |
+| NGINX Plus | :white_check_mark: | :white_check_mark: | :white_check_mark: | Платная |
+| Gravitee.io | :white_check_mark: | :white_check_mark: | :white_check_mark: | Опенсоурс |
 
  - Можно использовать любое из указанных решений, но всё зависит от финансовой стороны вопроса.
 
@@ -48,12 +48,12 @@
 
 | Возможности | Apache Kafka | RabbitMQ | Redis | ActiveMQ |
 |:---:|:---:|:---:|:---:|:---:
-| Поддержка кластеризации для обеспечения надежности | ✔ | ✔ | ✔ | ✔ |
-| Хранение сообщений на диске в процессе доставки | ✔ | ✔ | ✔ | ✔ |
-| Высокая скорость работы | ✔ | ✔ | ✔ | :x: |
+| Поддержка кластеризации для обеспечения надежности | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Хранение сообщений на диске в процессе доставки | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Высокая скорость работы | :white_check_mark: | :white_check_mark: | :white_check_mark: | ✖ |
 | Поддержка различных форматов сообщений | BINARY on TCP | STOMP/AMQP/MQTT |  RESP | AMQP//MQTT/RESP и пр. |
-| Разделение прав доступа к различным потокам сообщений | ✔ | ✔ | ✔ | ✔ |
-| Простота эксплуатации | :x: | ✔ | ✔ | ✔ |
+| Разделение прав доступа к различным потокам сообщений | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Простота эксплуатации | ✖ | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 
 
  - Как и в предыдущем задании, из за распространённости и частоты использования можно выбрать брокер сообщений RabbitMQ, он менее сложен в эксплуатации чем Apache Kafka и поддерживает несколько форматов сообщений.
